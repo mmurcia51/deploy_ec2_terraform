@@ -5,7 +5,6 @@ provider "aws" {
   region     = "us-east-1"
 
 }
-
 resource "aws_instance" "washington" {
   for_each      = var.service_names
   ami           = var.ami
