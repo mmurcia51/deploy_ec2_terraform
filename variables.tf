@@ -19,12 +19,12 @@ variable "ami" {
 
 
 
-#variable "secret_key" {
-#  description = "secret_key"
-#  type        = string
-#  sensitive   = true
-#  default     = "AWS_SECRET_ACCESS_KEY"
-#}
+variable "secret_key" {
+  description = "secret_key"
+  type        = string
+  sensitive   = true
+  default     = "AWS_SECRET_ACCESS_KEY"
+}
 
 variable "service_names" {
   description = "service"
