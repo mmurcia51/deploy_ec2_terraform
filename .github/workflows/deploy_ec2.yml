@@ -24,5 +24,5 @@ jobs:
     - name: Deploy EC2
       run: terraform apply -auto-approve
 
-    - name: Show EC2 Public IP
-      run: echo "Public IP: $$(terraform output public_ip)"
+  #  - name: Show EC2 Public IP
+  #    run: echo "Public IP: ${terraform output public_ip}"
