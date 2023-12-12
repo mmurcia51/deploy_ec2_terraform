@@ -14,7 +14,7 @@ variable "access_key" {
   description = "access_key"
   type        = string
   sensitive   = true
-  default     = "AKIA6CY4IDLETGPOPVH5"
+  default     = AWS_ACCESS_KEY_ID
 }
 
 
@@ -23,7 +23,7 @@ variable "secret_key" {
   description = "secret_key"
   type        = string
   sensitive   = true
-  default     = "iC0wL8D/ggwN7izPwdm4giQZPbJ6w235yb2rBQWm"
+  default     = AWS_SECRET_ACCESS_KEY
 }
 
 variable "service_names" {
